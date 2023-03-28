@@ -151,6 +151,9 @@ msgstr "用于 DNS 查询时通知 DNS 服务器，客户端所在的地理位�
 msgid "This feature requires the DNS server to support the Edns Client Subnet (RFC7871)."
 msgstr "此功能需要 DNS 服务器支持 EDNS Client Subnet（RFC7871）。"
 
+msgid "The effect is better, but will increase the memory."
+msgstr "效果更好，但会增加内存使用。"
+
 msgid "When using the chnroute list the default DNS"
 msgstr "当使用中国列表外时的默认DNS"
 
@@ -345,6 +348,15 @@ msgstr "Xray 负载均衡"
 
 msgid "V2ray_balancing"
 msgstr "V2ray 负载均衡"
+
+msgid "Balancing Strategy"
+msgstr "负载均衡策略"
+
+msgid "Probe Interval"
+msgstr "探测间隔"
+
+msgid "The interval between initiating probes. Every time this time elapses, a server status check is performed on a server. The time format is numbers + units, such as '10s', '2h45m', and the supported time units are <code>ns</code>, <code>us</code>, <code>ms</code>, <code>s</code>, <code>m</code>, <code>h</code>, which correspond to nanoseconds, microseconds, milliseconds, seconds, minutes, and hours, respectively."
+msgstr "发起探测的间隔。每经过这个时间，就会对一个服务器进行服务器状态检测。时间格式为数字+单位，比如<code>&quot;10s&quot;</code>, <code>&quot;2h45m&quot;</code>，支持的时间单位有 <code>ns</code>，<code>us</code>，<code>ms</code>，<code>s</code>，<code>m</code>，<code>h</code>，分别对应纳秒、微秒、毫秒、秒、分、时。"
 
 msgid "Shunt"
 msgstr "分流"

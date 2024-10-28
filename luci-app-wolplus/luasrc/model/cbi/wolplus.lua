@@ -7,7 +7,7 @@ e.template = "cbi/tblsection"
 e.anonymous = true
 e.addremove = true
 ---- add device section
-a = e:option(Value, "name", translate("Name"))
+a = e:option(Value, "name", translate("Host Name"))
 a.optional = false
 ---- mac address
 nolimit_mac = e:option(Value, "macaddr", translate("MAC Address"))

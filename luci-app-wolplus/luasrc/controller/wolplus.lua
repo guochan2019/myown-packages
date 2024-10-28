@@ -1,6 +1,7 @@
 module("luci.controller.wolplus", package.seeall)
 local t, a
 local x = luci.model.uci.cursor()
+local translate = I18N.translate
 
 function index()
     if not nixio.fs.access("/etc/config/wolplus") then return end

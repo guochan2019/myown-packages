@@ -1,6 +1,6 @@
 local i = require "luci.sys"
 local t, e
-t = Map("wolplus", translate("WakeOnLan++"), translate("Wake Up Your LAN Device.") .. [[<br/><br/><a href="https://github.com/sundaqiang/openwrt-packages" target="_blank">Powered by sundaqiang</a>]])
+t = Map("wolplus", translate("WakeOnLan Plus"), translate("Wake Up Your LAN Device.") .. [[<br/><br/><a href="https://github.com/sundaqiang/openwrt-packages" target="_blank">Powered by sundaqiang</a>]])
 t.template = "wolplus/index"
 e = t:section(TypedSection, "macclient", translate("Host Clients"))
 e.template = "cbi/tblsection"

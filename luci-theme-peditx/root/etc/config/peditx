@@ -1,0 +1,45 @@
+
+config theme 'theme'
+	option color '#2222359a'
+	option blur '00'
+	option navbar '1'
+
+config navbar
+	option name 'Overview'
+	option enable 'Enable'
+	option line '1'
+	option newtab 'No'
+	option icon '/www/luci-static/peditx/gaya/icon/navbar/overview.png'
+	option address '/cgi-bin/luci/admin/status/overview'
+
+config navbar
+	option name 'OpenClash'
+	option enable 'Enable'
+	option line '2'
+	option newtab 'No'
+	option icon '/www/luci-static/peditx/gaya/icon/navbar/openclash.png'
+	option address '/cgi-bin/luci/admin/services/openclash'
+
+config navbar
+	option name 'HomeProxy'
+	option enable 'Enable'
+	option line '3'
+	option newtab 'No'
+	option icon '/www/luci-static/peditx/gaya/icon/navbar/homeproxy.png'
+	option address '/cgi-bin/luci/admin/services/homeproxy'
+
+config navbar
+	option name 'WakeOnLan'
+	option enable 'Enable'
+	option line '4'
+	option newtab 'No'
+	option icon '/www/luci-static/peditx/gaya/icon/navbar/wolplus.png'
+	option address '/cgi-bin/luci/admin/services/wolplus'
+
+config navbar
+	option name 'Network'
+	option enable 'Enable'
+	option line '5'
+	option newtab 'No'
+	option icon '/www/luci-static/peditx/gaya/icon/navbar/network.png'
+	option address '/cgi-bin/luci/admin/network/network'

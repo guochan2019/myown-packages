@@ -3,6 +3,7 @@
 #
 # This is free software, licensed under the Apache License, Version 2.0 .
 #
+# LUCI_LANG.zh-cn:=中文
 
 include $(TOPDIR)/rules.mk
 

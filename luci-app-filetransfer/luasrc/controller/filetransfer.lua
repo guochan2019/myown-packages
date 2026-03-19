@@ -8,7 +8,6 @@ Modify: ayongwifi@126.com  www.openwrtdl.com
 module("luci.controller.filetransfer", package.seeall)
 
 local i18n = require "luci.i18n"
-i18n.loadc("filetransfer")
 
 function index()
     entry({"admin", "system", "filetransfer"}, view("filetransfer"), _("File Transfer"), 89).dependent = true
